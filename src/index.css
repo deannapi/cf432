@@ -26,13 +26,17 @@ code {
   width: 100%;
 }
 
-header,
-footer {
+header, footer {
   background-color: var(--blue2);
   text-align: center;
   font-variant: small-caps;
   border: var(--grey) solid 5px;
   padding: 15px 0 15px 0;
+  /* width: max-content; */
+}
+
+header {
+  width: 100%;
 }
 
 header a {
@@ -50,6 +54,10 @@ header a:hover {
   height: 4em;
 }
 
+footer {
+  width: 100%;
+}
+
 footer ul li a i {
   font-size: 35px;
 }
@@ -58,6 +66,11 @@ footer ul li {
   list-style: none;
   display: inline;
   padding: 7px;
+}
+
+h3 {
+  font-variant: small-caps;
+  color: #21728f;
 }
 
 .phone a {
@@ -170,4 +183,9 @@ table th, td {
 table thead {
   background-color: var(--darkblue);
   color: var(--lightgrey);
+}
+
+/* CONTACT */
+.contact {
+  text-align: center;
 }

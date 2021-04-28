@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 export default class Schedule extends React.Component {
   render() {
@@ -6,7 +7,7 @@ export default class Schedule extends React.Component {
       <>
         <div className="schedule">
           <table className="table caption-top">
-            <caption>Class Schedule</caption>
+            <caption><h3>Class Schedule</h3></caption>
             <thead>
               <tr>
                 <th scope="col">Sunday</th>
@@ -65,10 +66,12 @@ export default class Schedule extends React.Component {
                 <td>7:30 PM</td>
                 <td>7:30 PM</td>
                 <td>7:30 PM</td>
-                <td></td>
               </tr>
             </tbody>
           </table>
+        </div>
+        <div className="get_started">
+            <Link to="">Click Here</Link> to get started!
         </div>
       </>
     );
