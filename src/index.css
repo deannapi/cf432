@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --blue: #2596be;
+  --blue2: #43b9df;
+  --grey: #bfbfbf;
+}
+
+footer {
+  background-color: var(--blue2);
+  text-align: center;
+  font-variant: small-caps;
+  border: var(--grey) solid 5px;
+  padding-top: 10px;
+}
+
+footer ul li a i {
+  font-size: 35px;
+}
+
+footer ul li {
+  list-style: none;
+  display: inline;
+  padding: 7px;
+}
+
+#chalk_cult {
+  height: 35px;
+}
+
+.instagram .fab {
+  /* font-size: 35px; */
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  -webkit-background-clip: text;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+  padding: 3px;
+}
+
+.facebook .fab {
+  border-radius: 35px;
+}
