@@ -16,14 +16,32 @@ code {
   --blue: #2596be;
   --blue2: #43b9df;
   --grey: #bfbfbf;
+  --darkgrey: #2d2d2d;
+  --lightgrey: #d9d9d9;
+}
+/* HOME */
+#main_logo {
+  height: auto;
+  width: 100%;
 }
 
-footer {
+header, footer {
   background-color: var(--blue2);
   text-align: center;
   font-variant: small-caps;
   border: var(--grey) solid 5px;
-  padding-top: 10px;
+  padding: 15px 0 15px 0;
+}
+
+header a {
+  padding: 0 20px 10px 20px;
+  color: var(--darkgrey);
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: var(--lightgrey);
 }
 
 footer ul li a i {

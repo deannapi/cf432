@@ -4,7 +4,7 @@ export default class Schedule extends React.Component {
     render() {
         return (
             <>
-
+                {/* drop-ins */}
             </>
         );
     }
