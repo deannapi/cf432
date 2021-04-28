@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
-
 import selfie from "../images/selfie.jpg";
 
 export default class About extends React.Component {
@@ -16,7 +14,6 @@ export default class About extends React.Component {
           </p>
           <img src={selfie} alt="Coach" id="selfie" />
         </div>
- 
 
         <div className="price">
           <h3>Pricing</h3>
@@ -79,9 +76,9 @@ export default class About extends React.Component {
                     Whether you are traveling or just want to try us out, we
                     would love to have you join us for a workout!
                     <br />
-                    <Link to="" id="dropin">
+                    <Link to="/schedule" id="dropin">
                       Click here
-                    </Link>
+                    </Link>{" "}
                     for class times and how to signup.
                   </p>
                 </div>
