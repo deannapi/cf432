@@ -26,7 +26,8 @@ code {
   width: 100%;
 }
 
-header, footer {
+header,
+footer {
   background-color: var(--blue2);
   text-align: center;
   font-variant: small-caps;
@@ -73,6 +74,17 @@ h3 {
   color: #21728f;
 }
 
+.home {
+  margin: auto;
+}
+
+.carousel {
+  /* margin: auto; */
+  display: inline-block;
+  text-align: center;
+  background-color: #050607;
+}
+
 .phone a {
   color: var(--darkgrey);
 }
@@ -114,17 +126,26 @@ a {
   text-decoration: none;
 }
 
-.about, .price, .get_started {
+.about,
+.price,
+.get_started {
   text-align: center;
 }
 
 #dropin {
- color: var(--blue2);
+  color: var(--blue2);
 }
 
 #dropin:hover {
   color: var(--lightgrey);
 }
+
+#selfie {
+  height: 20em;
+  border-radius: 30px;
+}
+
+
 
 /* CARDS */
 .card {
@@ -133,7 +154,6 @@ a {
   margin: 15px auto 15px auto;
   background-color: var(--darkblue);
   border: var(--blue) double 5px;
-
 }
 
 .card-header {
@@ -149,7 +169,7 @@ a {
 
 .card-text {
   color: white;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 .card-text li {
@@ -176,7 +196,8 @@ table .sunday {
   color: var(--lightgrey);
 }
 
-table th, td {
+table th,
+td {
   border: 1px solid black;
 }
 
@@ -191,9 +212,9 @@ table thead {
 }
 
 /*MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) { 
- header a {
-   font-size: .8em;
-   display: inline-block;
- }
+@media screen and (max-width: 768px) {
+  header a {
+    font-size: 0.8em;
+    display: inline-block;
+  }
 }

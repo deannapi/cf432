@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
+
+import selfie from "../images/selfie.jpg";
+
 export default class About extends React.Component {
   render() {
     return (
@@ -10,9 +14,12 @@ export default class About extends React.Component {
             Crossfit 432 is independently owned and operated by Coach Justin
             Granado.
           </p>
+          <img src={selfie} alt="Coach" id="selfie" />
         </div>
+ 
+
         <div className="price">
-          <h3>Price</h3>
+          <h3>Pricing</h3>
           <div className="container">
             <div className="row align-items-center">
               <div className="card">
@@ -70,9 +77,12 @@ export default class About extends React.Component {
                     One workout - drop-in session.
                     <br />
                     Whether you are traveling or just want to try us out, we
-                    would love to have you join us for a workout! 
+                    would love to have you join us for a workout!
                     <br />
-                    <Link to="" id="dropin">Click here</Link> for class times and how to signup.
+                    <Link to="" id="dropin">
+                      Click here
+                    </Link>
+                    for class times and how to signup.
                   </p>
                 </div>
               </div>
