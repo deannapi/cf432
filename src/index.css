@@ -46,6 +46,10 @@ header a:hover {
   color: var(--lightgrey);
 }
 
+#header-logo {
+  height: 4em;
+}
+
 footer ul li a i {
   font-size: 35px;
 }
@@ -97,8 +101,16 @@ a {
   text-decoration: none;
 }
 
-.price {
+.about, .price, .get_started {
   text-align: center;
+}
+
+#dropin {
+ color: var(--blue2);
+}
+
+#dropin:hover {
+  color: var(--lightgrey);
 }
 
 /* CARDS */
@@ -130,4 +142,32 @@ a {
 .card-text li {
   /* justify-content: left; */
   text-align: left;
+}
+
+/* SCHEDULE */
+table {
+  text-align: center;
+  margin: auto;
+  font-variant: small-caps;
+}
+
+table caption {
+  text-align: center;
+  color: var(--darkblue);
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+table .sunday {
+  background-color: var(--darkgrey);
+  color: var(--lightgrey);
+}
+
+table th, td {
+  border: 1px solid black;
+}
+
+table thead {
+  background-color: var(--darkblue);
+  color: var(--lightgrey);
 }
