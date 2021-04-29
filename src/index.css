@@ -27,7 +27,7 @@ code {
 
 header,
 footer {
-  background-color: var(--blue2);
+  background-color: var(--darkblue);
   text-align: center;
   font-variant: small-caps;
   border: var(--grey) solid 5px;
@@ -41,13 +41,13 @@ header {
 
 header a {
   padding: 0 20px 10px 20px;
-  color: var(--darkgrey);
+  color: var(--grey);
   font-size: 1.3rem;
   text-decoration: none;
 }
 
 header a:hover {
-  color: var(--lightgrey);
+  color: var(--blue2);
 }
 
 .header-logo {
@@ -62,6 +62,10 @@ header a:hover {
 
 footer {
   width: 100%;
+}
+
+footer h5 {
+  color: var(--grey);
 }
 
 footer ul li a i {
@@ -95,11 +99,11 @@ h3 {
 }
 
 .phone a {
-  color: var(--darkgrey);
+  color: var(--grey);
 }
 
 .phone a:hover {
-  color: var(--lightgrey);
+  color: var(--blue2);
 }
 
 #chalk_cult {
@@ -150,11 +154,6 @@ a {
 .btn {
   background-color: var(--blue2);
   margin-bottom: 10px;
-}
-
-a {
-  color: var(--darkblue);
-  font-weight: 700;
 }
 
 .btn:hover {
