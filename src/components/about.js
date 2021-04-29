@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
 import selfie from "../images/selfie.jpg";
 
 export default class About extends React.Component {
