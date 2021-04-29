@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 export default class Schedule extends React.Component {
   render() {
@@ -7,7 +7,9 @@ export default class Schedule extends React.Component {
       <>
         <div className="schedule">
           <table className="table caption-top">
-            <caption><h3>Class Schedule</h3></caption>
+            <caption>
+              <h3>Class Schedule</h3>
+            </caption>
             <thead>
               <tr>
                 <th scope="col">Sunday</th>
@@ -71,7 +73,15 @@ export default class Schedule extends React.Component {
           </table>
         </div>
         <div className="get_started">
-            <Link to="">Click Here</Link> to get started!
+          <button className="btn btn-primary">
+            <a
+              href="https://crossfit432.wodify.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Get Started
+            </a>
+          </button>
         </div>
       </>
     );

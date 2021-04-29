@@ -9,7 +9,7 @@ export default class Header extends React.Component {
         <header>
           <div className="container">
             <div className="row">
-              <div className="col">
+              <div className="col header-logo">
                 <img src={logo} alt="cf432" id="header-logo" />
               </div>
               <div className="col">

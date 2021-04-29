@@ -42,9 +42,6 @@ export default class About extends React.Component {
                   </p>
                 </div>
               </div>
-            </div>
-
-            <div className="row align-items-center">
               <div className="card">
                 <div className="card-header">Couples</div>
                 <div className="card-body">
@@ -55,6 +52,9 @@ export default class About extends React.Component {
                   </p>
                 </div>
               </div>
+            </div>
+
+            <div className="row align-items-center">
               <div className="card">
                 <div className="card-header">Family</div>
                 <div className="card-body">
@@ -76,10 +76,19 @@ export default class About extends React.Component {
                     Whether you are traveling or just want to try us out, we
                     would love to have you join us for a workout!
                     <br />
-                    <Link to="/schedule" id="dropin">
-                      Click here
-                    </Link>{" "}
-                    for class times and how to signup.
+                  </p>
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-header">Personal Training</div>
+                <div className="card-body">
+                  <h6 className="card-subtitle mb-2 ">$55</h6>
+                  <p className="card-text">
+                    One-on-one training session.
+                    <br />
+                    Programming designed to fit your specific needs. <br />{" "}
+                    These may also be purchased in bundles of 8, 10, or 12
+                    sessions.
                   </p>
                 </div>
               </div>
@@ -88,7 +97,11 @@ export default class About extends React.Component {
         </div>
         {/* end of cards */}
         <div className="get_started">
-          <h3>Get Started</h3>
+          <button className="btn btn-primary">
+            <a href="/schedule">
+              View class schedule
+            </a>
+          </button>
         </div>
       </>
     );

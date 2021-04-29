@@ -1,12 +1,10 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Rockwell",
+  font-family: "Rockwell",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -52,8 +50,14 @@ header a:hover {
   color: var(--lightgrey);
 }
 
+.header-logo {
+  align-self: center;
+}
+
 #header-logo {
   height: 4em;
+  border-radius: 25%;
+  box-shadow: 4px 4px 4px var(--grey);
 }
 
 footer {
@@ -62,6 +66,10 @@ footer {
 
 footer ul li a i {
   font-size: 35px;
+}
+
+footer ul li a i:hover {
+  font-size: 42px;
 }
 
 footer ul li {
@@ -98,6 +106,10 @@ h3 {
   height: 40px;
 }
 
+#chalk_cult:hover {
+  height: 48px;
+}
+
 .instagram .fab {
   /* font-size: 35px; */
   background: radial-gradient(
@@ -118,10 +130,6 @@ h3 {
   border-radius: 35px;
 }
 
-.facebook .fab:hover {
-  color: var(--lightgrey);
-}
-
 /* ABOUT */
 a {
   text-decoration: none;
@@ -139,20 +147,29 @@ a {
   padding: 10px 0 15px 0;
 }
 
-#dropin {
-  color: var(--blue2);
+.btn {
+  background-color: var(--blue2);
+  margin-bottom: 10px;
 }
 
-#dropin:hover {
-  color: var(--lightgrey);
+a {
+  color: var(--darkblue);
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: var(--darkblue);
+}
+
+a:hover {
+  color: var(--grey);
 }
 
 #selfie {
   height: 20em;
   border-radius: 30px;
+  box-shadow: 4px 4px 4px var(--grey);
 }
-
-
 
 /* CARDS */
 .card {
@@ -216,6 +233,16 @@ table thead {
 /* CONTACT */
 .contact {
   text-align: center;
+  background-color: var(--darkblue);
+  color: var(--lightgrey);
+}
+
+.contact a {
+  color: var(--lightgrey);
+}
+
+.contact a:hover {
+  color: var(--blue);
 }
 
 /*MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -223,5 +250,33 @@ table thead {
   header a {
     font-size: 0.8em;
     display: inline-block;
+  }  
+
+  body {
+    font-family: "Rockwell";
+  }
+
+  footer h5, a {
+    font-size: .8em;
+  }
+
+  footer ul li a i {
+    font-size: 20px;
+  }
+
+  #chalk_cult {
+    height: 25px;
+  }
+
+  #chalk_cult:hover {
+    height: 32px;
+  }
+
+  table {
+    font-size:xx-small;
+  }
+
+  .googlemap iframe {
+    width: 75%;
   }
 }
