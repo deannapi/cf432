@@ -29,7 +29,7 @@ export default class About extends React.Component {
             interval="5000"
             showThumbs={false}
             infiniteLoop
-            width="30%"
+            width="50%"
           >
             <div>
               <img src={img1} alt="" />
