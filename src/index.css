@@ -44,6 +44,7 @@ header a {
   color: var(--grey);
   font-size: 1.3rem;
   text-decoration: none;
+  display: block;
 }
 
 header a:hover {
@@ -95,7 +96,8 @@ h3 {
   /* margin: auto; */
   display: inline-block;
   text-align: center;
-  background-color: #050607;
+  background-color: var(--darkblue);
+  padding-top: 10px;
 }
 
 .phone a {
@@ -149,11 +151,18 @@ a {
   background-color: #0d364a;
   color: var(--lightgrey);
   padding: 10px 0 15px 0;
+  border-bottom: var(--grey) 4px solid;
 }
 
 .btn {
   background-color: var(--blue2);
   margin-bottom: 10px;
+}
+
+.btn a {
+  color: var(--darkblue);
+  font-weight: 600;
+  font-variant: small-caps;
 }
 
 .btn:hover {
@@ -248,7 +257,7 @@ table thead {
 @media screen and (max-width: 768px) {
   header a {
     font-size: 0.8em;
-    display: inline-block;
+    /* display: inline-block; */
   }  
 
   body {
@@ -278,4 +287,15 @@ table thead {
   .googlemap iframe {
     width: 75%;
   }
+
+  .header-logo {
+    align-self: center;
+    display: none;
+  }
+
+  #selfie {
+    height: 10em;
+  }  
+  
+
 }

@@ -12,7 +12,7 @@ export default class Header extends React.Component {
               <div className="col header-logo">
                 <img src={logo} alt="cf432" id="header-logo" />
               </div>
-              <div className="col">
+              <div className="col navs">
                 <Link to="/">Home</Link>
                 <Link to="/about">About Us</Link>
                 <Link to="/contact">Contact</Link>

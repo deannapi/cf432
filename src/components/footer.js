@@ -36,7 +36,7 @@ export default class Footer extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i class="fab fa-instagram"></i>
+                  <i className="fab fa-instagram"></i>
                 </a>
               </li>
               <li className="facebook">
@@ -45,7 +45,7 @@ export default class Footer extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i class="fab fa-facebook-f"></i>
+                  <i className="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li>
