@@ -307,7 +307,11 @@ table thead {
   #selfie {
     height: 10em;
   }  
+ 
+  footer h6 {
+    font-size: .6em;
+  }
 
-  
+
 
 }
