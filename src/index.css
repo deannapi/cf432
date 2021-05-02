@@ -283,7 +283,11 @@ table thead {
   }
 
   table {
-    font-size:xx-small;
+    font-size: 8px;
+  }
+
+  table th {
+    width: 9%;
   }
 
   .googlemap iframe {
