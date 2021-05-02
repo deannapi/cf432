@@ -22,16 +22,15 @@ export default class Schedule extends React.Component {
             </thead>
             <tbody>
               <tr>
-                <td className="sunday">Closed</td>
+                <td className="sunday" rowSpan="7" valign="middle">Closed</td>
                 <td>5:00 AM</td>
                 <td>5:00 AM</td>
                 <td>5:00 AM</td>
                 <td>5:00 AM</td>
                 <td>5:00 AM</td>
-                <td>Open Gym (times may vary)</td>
+                <td rowSpan="7" valign="middle">Open Gym (times may vary)</td>
               </tr>
               <tr>
-                <td className="sunday"></td>
                 <td>9:30 AM</td>
                 <td>9:30 AM</td>
                 <td>9:30 AM</td>
@@ -39,7 +38,6 @@ export default class Schedule extends React.Component {
                 <td>9:30 AM</td>
               </tr>
               <tr>
-                <td className="sunday"></td>
                 <td>4:30 PM</td>
                 <td>4:30 PM</td>
                 <td>4:30 PM</td>
@@ -47,7 +45,6 @@ export default class Schedule extends React.Component {
                 <td>4:30 PM</td>
               </tr>
               <tr>
-                <td className="sunday"></td>
                 <td>5:30 PM</td>
                 <td>5:30 PM</td>
                 <td>5:30 PM</td>
@@ -55,14 +52,12 @@ export default class Schedule extends React.Component {
                 <td>5:45 PM</td>
               </tr>
               <tr>
-                <td className="sunday"></td>
                 <td>6:30 PM</td>
                 <td>6:30 PM</td>
                 <td>6:30 PM</td>
                 <td>6:30 PM</td>
               </tr>
               <tr>
-                <td className="sunday"></td>
                 <td>7:30 PM</td>
                 <td>7:30 PM</td>
                 <td>7:30 PM</td>

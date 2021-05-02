@@ -4,6 +4,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
@@ -27,12 +28,10 @@ code {
 
 header,
 footer {
-  background-color: var(--darkblue);
+  background-color: black;
   text-align: center;
   font-variant: small-caps;
-  border: var(--grey) solid 5px;
   padding: 15px 0 15px 0;
-  /* width: max-content; */
 }
 
 header {
@@ -110,6 +109,7 @@ h3 {
 
 #chalk_cult {
   height: 40px;
+  background-color: white;
 }
 
 #chalk_cult:hover {
@@ -151,7 +151,6 @@ a {
   background-color: #0d364a;
   color: var(--lightgrey);
   padding: 10px 0 15px 0;
-  border-bottom: var(--grey) 4px solid;
 }
 
 .btn {
@@ -214,6 +213,7 @@ table {
   text-align: center;
   margin: auto;
   font-variant: small-caps;
+  background-color: white;
 }
 
 table caption {
@@ -231,6 +231,7 @@ table .sunday {
 table th,
 td {
   border: 1px solid black;
+  width: 14%;
 }
 
 table thead {
@@ -241,7 +242,7 @@ table thead {
 /* CONTACT */
 .contact {
   text-align: center;
-  background-color: var(--darkblue);
+  /* background-color: var(--darkblue); */
   color: var(--lightgrey);
 }
 
