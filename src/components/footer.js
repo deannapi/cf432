@@ -1,5 +1,6 @@
 import React from "react";
 import chalk_culture from "../images/chalk-culture-logo-black.png";
+import deannapi from "../images/deannapi.jpg";
 
 export default class Footer extends React.Component {
   render() {
@@ -68,6 +69,7 @@ export default class Footer extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
+                <img src={deannapi} alt="DeAnna Barker" id="deannapi" />
                 DeAnna Barker
               </a>
             </h6>

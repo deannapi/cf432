@@ -69,7 +69,11 @@ footer h5 {
 }
 
 footer h6 {
-  color: var(--lightgrey);
+  color: var(--darkblue);
+}
+
+footer h6 a {
+  color: #0d364a;
 }
 
 footer ul li a i {
@@ -84,6 +88,10 @@ footer ul li {
   list-style: none;
   display: inline;
   padding: 7px;
+}
+
+#deannapi {
+  height: 1.6em;
 }
 
 h3 {
@@ -311,7 +319,4 @@ table thead {
   footer h6 {
     font-size: .6em;
   }
-
-
-
 }
