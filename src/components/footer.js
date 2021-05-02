@@ -59,6 +59,19 @@ export default class Footer extends React.Component {
               </li>
             </ul>
           </div>
+
+          <div>
+            <h6>
+              Website by{" "}
+              <a
+                href="https://www.deannapi.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                DeAnna Barker
+              </a>
+            </h6>
+          </div>
         </footer>
       </>
     );

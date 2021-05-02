@@ -85,7 +85,6 @@ export default class About extends React.Component {
                   <h6 className="card-subtitle mb-2 ">$240</h6>
                   <p className="card-text">
                     Month To Month <br /> Unlimited access to classes <br />{" "}
-                    <li>Couples</li>
                   </p>
                 </div>
               </div>
@@ -93,13 +92,12 @@ export default class About extends React.Component {
 
             <div className="row align-items-center">
               <div className="card">
-                <div className="card-header">Family</div>
+                <div className="card-header">Family of 3</div>
                 <div className="card-body">
                   <h6 className="card-subtitle mb-2 ">$300</h6>
                   <p className="card-text">
                     Month To Month <br /> Unlimited access to classes
                     <br />
-                    <li>Family of 3</li>
                   </p>
                 </div>
               </div>

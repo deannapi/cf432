@@ -68,6 +68,10 @@ footer h5 {
   color: var(--grey);
 }
 
+footer h6 {
+  color: var(--lightgrey);
+}
+
 footer ul li a i {
   font-size: 35px;
 }
@@ -205,7 +209,8 @@ a:hover {
 
 .card-text li {
   /* justify-content: left; */
-  text-align: left;
+  text-align: center;
+  list-style: none;
 }
 
 /* SCHEDULE */
